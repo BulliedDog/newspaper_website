@@ -1,8 +1,8 @@
 
 body {
-    background-color:rgb(50,50,50);
+    /*background-color:rgb(50,50,50);*/
     font-family: Open Sans, sans-serif;;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: noto-serif, Georgia, Verdana, Times, Times New Roman, Garamond, Palatino, serif;
     font-size: 16px;
     scroll-behavior: smooth;
@@ -10,21 +10,23 @@ body {
 header{
     background-color:#163860;
     padding:10px;
+    color:white;
+    font-style: bold;
 }
 nav{
-    background-color:rgb(0, 12, 140);
+    /*background-color:rgb(0, 12, 140);*/
     float:left;
     width:15%;
     margin-left:5%;
     padding:10px;
 }
 section{
-    background-color:rgb(14, 94, 0);
+    /*background-color:rgb(14, 94, 0);*/
     float:left;
     width:60%;
 }
 aside{
-    background-color:rgb(110, 0, 90);
+    /*background-color:rgb(110, 0, 90);*/
     float:right;
     width:15%;
     margin-right:5%;
@@ -33,6 +35,9 @@ aside{
 footer{
     background-color:rgb(0, 93, 110);
     clear:both;
+    padding:10px;
+    color:white;
+    font-style: bold;
 }
 .img1{
     float:right;
