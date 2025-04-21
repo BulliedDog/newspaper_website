@@ -1,17 +1,64 @@
-
+@font-face{
+    font-family: 'Diploma';
+    src: url('../style/diploma.ttf') format('woff2');
+}
 body {
     /*background-color:rgb(50,50,50);*/
     font-family: Open Sans, sans-serif;;
     color: rgb(0, 0, 0);
-    font-family: noto-serif, Georgia, Verdana, Times, Times New Roman, Garamond, Palatino, serif;
+    font-family: noto-serif, Georgia, Verdana, Times, "Times New Roman", Garamond, Palatino, serif;
     font-size: 16px;
     scroll-behavior: smooth;
 }
 header{
     background-color:#163860;
-    padding:10px;
     color:white;
     font-style: bold;
+    font-size: 14px;
+    padding-bottom:4px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+ul{
+    margin-bottom: 9px;
+}
+#navbar{
+    padding:10px;
+    position: relative;
+}
+#research{
+    margin-left:5%;
+    width:15%;
+    float: left;
+}
+#top-links{
+    float: left;
+    text-align: center;
+    width:60%;
+}
+#login{
+    text-align: right;
+    width:15%;
+    float: left;
+}
+/*#logo-section{
+    margin-bottom:2px;
+}*/
+#logo-container{
+    clear: both;
+    text-align: center;
+    background-color:white;
+}
+#logo{
+    font-family: Diploma;
+    font-size:70px;
+    color:#163860;
+    align-self: center;
+    margin-bottom: 0px;
 }
 nav{
     /*background-color:rgb(0, 12, 140);*/
