@@ -184,6 +184,8 @@ article{
 .img3{
     width: 99%;
     height: 100%;
+    border-radius:5px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
 }
 .img3-container{
     /*text-align:center;*/
