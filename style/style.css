@@ -26,6 +26,7 @@ a{
 }
 ul{
     margin-bottom: 9px;
+    padding-left:0px;
 }
 #navbar{
     padding:10px;
@@ -153,6 +154,17 @@ footer{
     border-radius:5px;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
 }
+.big-img-article{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius:5px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
+}
+.huge-article{
+    margin: 10%;
+    margin-bottom:10px;
+}
 article{
     clear:both;
     padding:10px;
@@ -182,7 +194,7 @@ article{
     padding-top: 5px;
 }
 .img3{
-    width: 99%;
+    width: 100%;
     height: 100%;
     border-radius:5px;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
@@ -208,6 +220,10 @@ article{
     padding: 1%;
     margin: 1%;
     margin-left: 10%;
+}
+svg{
+    color:white;
+    fill:currentColor;
 }
 @media screen and (max-width: 1000px) {
     nav{
