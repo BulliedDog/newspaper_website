@@ -162,8 +162,26 @@ footer{
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
 }
 .huge-article{
-    margin: 10%;
-    margin-bottom:10px;
+    position:relative;
+    clear:both;
+    margin:10%;
+    width: 80%;
+    height:600px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    border-radius:5px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
+    background-image: url(https://picsum.photos/id/12/3200/1800);
+    background-size: cover;
+}
+.img-link{
+    position: absolute;
+    left:5%;
+    bottom:10%;
+}
+.img-link:hover{
+    color:#51a2ff;
+    text-decoration: underline;
 }
 article{
     clear:both;
@@ -225,6 +243,19 @@ svg{
     color:white;
     fill:currentColor;
 }
+.link-article{
+    color: #163860;
+    list-style:none;
+}
+.link-article-link{
+    color: #163860;
+    margin-left:0px;
+    font-size:20px;
+}
+.link-article-link:hover {
+    color: #4496f5;
+    text-decoration: underline;
+}
 @media screen and (max-width: 1000px) {
     nav{
         display: none;
@@ -258,5 +289,11 @@ svg{
         background-color: white;
         width: 100%;
         height: 100px;
+    }
+    .huge-article{
+        margin: 5%;
+        width:90%;
+        margin-top:0;
+        margin-bottom:0;
     }
 }
