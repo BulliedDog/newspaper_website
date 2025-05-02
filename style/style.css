@@ -256,6 +256,55 @@ svg{
     color: #4496f5;
     text-decoration: underline;
 }
+#footer-left{
+    margin-left: 5%;
+    width: 20%;
+    border:0;
+    border-color: #CCCCCC;
+    border-right: 1px;
+    border-style: solid;
+    padding:10px;
+    float:left;
+}
+#footer-middle-left{
+    margin-left: 10px;
+    width: 20%;
+    border:0;
+    border-color: #CCCCCC;
+    border-right: 1px;
+    border-style: solid;
+    padding:10px;
+    float:left;
+}
+#footer-middle-right{
+    margin-left: 10px;
+    width: 20%;
+    border:0;
+    border-color: #CCCCCC;
+    border-right: 1px;
+    border-style: solid;
+    padding:10px;
+    float:left;
+}
+#footer-right{
+    margin-left: 10px;
+    width: 20%;
+    padding:10px;
+    float:left;
+}
+#footest-footer{
+    clear:both;
+    text-align:center;
+    border: 0;
+    border-color: #CCCCCC;
+    border-top: 1px;
+    border-style: solid;
+    padding:10px;
+    margin:10px
+}
+footer{
+    font-size:12px;
+}
 @media screen and (max-width: 1000px) {
     nav{
         display: none;
