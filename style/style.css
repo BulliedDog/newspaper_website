@@ -11,12 +11,16 @@ body {
     scroll-behavior: smooth;
 }
 header{
-    background-color:#163860;
-    color:white;
+    background-color:white;
+    color:#163860;
     font-style: bold;
     font-size: 14px;
     padding-bottom:4px;
     height: 100%;
+}
+#header-tail{
+    height: 3px;
+    background-color:#163860;
 }
 a{
     color: white;
@@ -423,7 +427,7 @@ footer{
         margin-bottom: 0px;
     }
     #logo-container{
-        margin-top:10px;
+        margin-top:8px;
     }
     .img1{
         float:none;
