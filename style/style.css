@@ -183,7 +183,6 @@ footer{
     border-radius:5px;
 }
 .video-section{
-    position:relative;
     clear:both;
     margin:10%;
     width: 80%;
@@ -193,6 +192,7 @@ footer{
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
 }
 .video-section-container{
+    position:relative;
     float:left;
     margin-left: 2%;
     width: 22.5%;
@@ -207,6 +207,7 @@ footer{
     border-radius:5px;
 }
 .video-section-new-line{
+    position:relative;
     float:left;
     margin-left: 2%;
     width: 22.5%;
@@ -352,6 +353,7 @@ footer{
 }
 @media screen and (max-width: 1000px) {
     .video-section-container{
+        position:relative;
         float:left;
         margin-left: 2%;
         width: 47%;
@@ -366,6 +368,7 @@ footer{
         border-radius:5px;
     }
     .video-section-new-line{
+        position:relative;
         clear:both;
         float:left;
         margin-left: 2%;
@@ -475,17 +478,6 @@ footer{
         margin-top:20px;
         clear: both;
     }
-    .video-section{
-        position:relative;
-        clear:both;
-        margin:10%;
-        width: 80%;
-        height:600px;
-        margin-bottom: 10px;
-        margin-top:10px;
-        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.374));
-        overflow:auto;
-    }
         .video-section {
         position: relative;
         margin: 10%;
@@ -502,6 +494,7 @@ footer{
     }
     .video-section-container,
     .video-section-new-line {
+        position:relative;
         flex: 0 0 auto;
         width: 250px;
         height: 500px;
